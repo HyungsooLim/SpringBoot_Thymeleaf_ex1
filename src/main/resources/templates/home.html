@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/fragments/default :: head(|Thymeleaf_ex1_${home}|)">
+<meta charset="UTF-8">
+<title>Thymeleaf_ex1_Home</title>
+</head>
+<body>
+<!-- header -->
+	<div th:replace="/fragments/default :: header"></div>
+<!-- main -->
+	<div th:replace="/fragments/default :: main"></div>
+<!-- footer -->
+	<div th:replace="/fragments/default :: footer"></div>
+</body>
+</html>
